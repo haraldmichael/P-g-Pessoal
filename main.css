@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(242, 242, 242);
+}
+
+.logo {
+    width: 220px;
+    margin: 15px;
+}
+
+header nav li{
+    font-family: 'Roboto', sans-serif;
+    display: inline;
+    margin-left: 32px;
+}
+
+header nav li a {
+    color: rgb(62, 59, 71);
+}
+
+h2{
+    margin-top: 0px;
+    font-size: 60px;
+    line-height: 0%;
+    color: rgb(62, 59, 71);
+}
+
+.container{
+    max-width: 90%;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 16px;
+}
+
+header .container ,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.capa-container{
+    max-width: 100%;
+    margin-top: 12px;
+}
+
+h3{
+    margin: 0px;
+    font-size: 24px;
+    line-height: 0%;
+    color: rgb(62, 59, 71);
+}
+
+.title-h3{
+
+    width: 90%;
+    margin: 0 auto;
+    padding: 32px;
+}
+
+button{
+    padding: 16px;
+    margin-top: 20px;
+    border-radius: 32px; stroke: none;
+    color: #fff;
+    font-size: 18px ;
+
+
+}
+
+.dp-container{
+    padding: 0 1vw;
+    margin: 90px 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .container{
+    margin-top: 32px;
+    align-items: flex-start;
+    align-items: center;
+
+}
+
+section{
+    font-family: 'Roboto', sans-serif;
+    margin: auto 32px;
+    
+}
+
+section h2{
+    margin-bottom: 52px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+section p{
+    margin-bottom: 32px;
+    color:  rgb(103, 100, 114);
+}
+
+section img{
+    margin: 32px 16px ;
+    width: 50%;
+    margin-right: 32px;
+
+}
+
+nav a {
+    color: rgb(72, 72, 72);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight:bold ;
+}
+
+nav a:hover {
+    color: rgb(156, 156, 156);
+    text-decoration: underline;
+}
+
+form{
+    align-items: ;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-top: 0px;
+}
+
+form [type= submit]{
+    width: 100%;
+    background-color: rgb(255, 0, 68);
+    color: aliceblue;
+    font-weight: bold;
+    transition: 0.5s all
+}
+
+form [type= submit]:hover{
+    width: 100%;
+    background-color: rgb(182, 0, 0);
+    color: aliceblue;
+    font-weight: bold;
+    transition: 0.5s all
+}
+
+input{
+    margin-top: 16px;
+    padding: 16px;
+    border-radius: 32px;
+}
+
+.gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 0 1vw;
+    margin: 30px 90px 
+}
+
+.gallery-container{
+    margin-bottom: 10%;
+}
+
+.gallery-itens{
+    width: 340px;
+    height: 230px;
+    border: 10px solid #fff;
+    box-shadow: 4px 4px 4px #0002;
+    flex-grow: 1;
+}
+
+.gallery-itens img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery-itens:hover {
+    transform: scale(1.1) ;
+    transition: transform 0.4s linear
+}
+
+footer {
+    margin-top: 64px;
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(46, 45, 50);
+    color: rgb(255, 255, 255);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+}
+
+.footer-left h4,
+.footer-left p {
+    margin: 10px;
+}
+
+.footer-right ul {
+    list-style: none;
+    margin: 10px;
+    padding: 0;
+    display: flex;
+}
+
+.footer-right li {
+    margin-right: 10px;
+}
+
+.social-link {
+    color: white;
+}
+
+.social-link:hover {
+    color: grey;
+}
